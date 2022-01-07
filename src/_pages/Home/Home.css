@@ -1,30 +1,30 @@
 .StageButton{
     position: absolute;
-    top: 624px;
+    top: 549px;
     left: 133px;
 }
 .BackstageButton{
     position: absolute;
-    top: 699px;
+    top: 624px;
     left: 33px;
 }
 .StudioButton{
     position: absolute;
-    top: 699px;
+    top: 624px;
     left: 258px;
 }
 .ConfigButton{
     position: absolute;
-    top: 624px;
+    top: 549px;
     left: 322px;
 }
 .SerialButton{
     position: absolute;
-    top: 559px;
+    top: 484px;
     left: 322px;
 }
 .MailButton{
     position: absolute;
-    top: 494px;
+    top: 419px;
     left: 322px;
 }
