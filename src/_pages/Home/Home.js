@@ -5,6 +5,7 @@ import StudioButton from './assets/Studio_r.png';
 import ConfigButton from './assets//Config_r.png';
 import SerialButton from './assets/Serial_r.png';
 import MailButton from './assets/mail_button.png';
+import Banner from "./assets/banner.png";
 import FC from "./assets/FC.jpg"
 import icon from "./assets/icon.png"
 import coin from "./assets/coin.png"
@@ -16,6 +17,7 @@ function Home() {
     <div className="App" style={{ backgroundImage: `url(${Map})`,backgroundSize:"cover"}}>
       <img className='icon' src={icon} alt="icon" width="100px"/>
       <img className='coin' src={coin} alt="icon" width="100px"/>
+      <img className='banner' src={Banner} alt="Banner" width="200px"/>
       <div className='StageButton' href="/Stage">
         <Link to='/Stage'><img src={StageButton} width='125px' alt='button'/></Link>
       </div>
