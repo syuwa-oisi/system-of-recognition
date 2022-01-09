@@ -1,12 +1,13 @@
 import Map from './assets/map.png';
-import StageButton from './assets/button_tmp.png';
-import BackgroundButton from './assets/button_tmp.png';
-import StudioButton from './assets/button_tmp.png';
-import ConfigButton from './assets/button_tmp.png';
-import SerialButton from './assets/button_tmp.png';
-import MailButton from './assets/button_tmp.png';
+import StageButton from './assets/Stage_r.png';
+import BackgroundButton from './assets/Backstage_r.png';
+import StudioButton from './assets/Studio_r.png';
+import ConfigButton from './assets//Config_r.png';
+import SerialButton from './assets/Serial_r.png';
+import MailButton from './assets/mail_button.png';
+import FC from "./assets/FC.jpg"
 import { Link } from 'react-router-dom';
-import './Home.css'
+import './Home.css';
 
 function Home() {
   return (
@@ -29,6 +30,9 @@ function Home() {
       </div>
       <div className='MailButton' href="/Mail">
         <Link to='/Mail'><img src={MailButton} width='50px' alt='button'/></Link>
+      </div>
+      <div className='FCButton' href="/Funclub">
+        <Link to='/Funclub'><img src={FC} width='150px' alt='button'/></Link>
       </div>
     </div>
   );

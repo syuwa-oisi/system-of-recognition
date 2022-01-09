@@ -1,0 +1,30 @@
+.menu_map{
+    position: absolute;
+    top: 704px;
+    left: 0px;
+}
+.menu_stage{
+    position: absolute;
+    top: 704px;
+    left: 65px;
+}
+.menu_studio{
+    position: absolute;
+    top: 704px;
+    left: 130px;
+}
+.menu_backstage{
+    position: absolute;
+    top: 704px;
+    left: 195px;
+}
+.menu_fc{
+    position: absolute;
+    top: 704px;
+    left: 260px;
+}
+.menu_config{
+    position: absolute;
+    top: 704px;
+    left: 325px;
+}
