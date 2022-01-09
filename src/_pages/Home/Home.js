@@ -6,13 +6,16 @@ import ConfigButton from './assets//Config_r.png';
 import SerialButton from './assets/Serial_r.png';
 import MailButton from './assets/mail_button.png';
 import FC from "./assets/FC.jpg"
+import icon from "./assets/icon.png"
+import coin from "./assets/coin.png"
 import { Link } from 'react-router-dom';
 import './Home.css';
 
 function Home() {
   return (
     <div className="App" style={{ backgroundImage: `url(${Map})`,backgroundSize:"cover"}}>
-      <h1>Home</h1>
+      <img className='icon' src={icon} alt="icon" width="100px"/>
+      <img className='coin' src={coin} alt="icon" width="100px"/>
       <div className='StageButton' href="/Stage">
         <Link to='/Stage'><img src={StageButton} width='125px' alt='button'/></Link>
       </div>

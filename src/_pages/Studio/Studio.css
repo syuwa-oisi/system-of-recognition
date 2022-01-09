@@ -1,0 +1,15 @@
+.Studio_artist{
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+.Studio_costume{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+}
+.Studio_equip{
+    position: absolute;
+    top: 400px;
+    left: 20px;
+}

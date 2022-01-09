@@ -33,3 +33,14 @@
     top: 710px;
     left: 122px;
 }
+.icon{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+.coin{
+    position: absolute;
+    top: 120px;
+    left: 10px;
+    background-color:darksalmon;
+}

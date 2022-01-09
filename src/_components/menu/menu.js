@@ -4,15 +4,25 @@ import FC from "./assets/FC_4.jpg";
 import Backstage from "./assets/Backstage_4.jpg";
 import Studio from "./assets/Studio_4.jpg";
 import Stage from "./assets/Stage_4.jpg";
+import Header from "./assets/header.png"
+import Back from "./assets/back.png"
 
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet} from 'react-router-dom';
 import './menu.css'
 
+
 class Menu extends React.Component {
-    render() { 
+    render(props) {
         return(
+            <>
             <div>
+                <div className="header">
+                    <img src={Header} width="390px" alt="Header"/>
+                </div>
+                <div className="back">
+                    <Link to=''><img src={Back} width='65px' alt='button'/></Link>
+                </div>
                 <div className='menu_map' href="/">
                     <Link to='/'><img src={map} width='65px' alt='button'/></Link>
                 </div>
@@ -37,6 +47,8 @@ class Menu extends React.Component {
                     <Link to='/Config'><img src={Config} width='65px' alt='button'/></Link>
                 </div>
             </div>
+            <Outlet/>
+            </>
         )
     }
   }

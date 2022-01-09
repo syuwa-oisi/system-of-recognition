@@ -28,3 +28,13 @@
     top: 704px;
     left: 325px;
 }
+.header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.back{
+    position: absolute;
+    top: 110px;
+    left: 5px;
+}
