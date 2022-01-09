@@ -6,9 +6,9 @@ import Studio from './_pages/Studio/Studio.js';
 import Backstage from './_pages/Backstage/Backstage.js';
 import NotFound from './_pages/NotFound/NotFound.js';
 import Config from './_pages/Config/Config.js';
-import Back_artist from './_pages/Back_artist/Backstage_artist.js';
-import Back_costume from './_pages/Back_costume/Backstage_costume.js';
-import Back_equip from './_pages/Back_equipment/Backstage_equipment.js';
+import Backartist from './_pages/Back_artist/Backstage_artist.js';
+import Backcostume from './_pages/Back_costume/Backstage_costume.js';
+import Backequip from './_pages/Back_equipment/Backstage_equipment.js';
 import Menu from './_components/menu/menu.js';
 import './App.css';
 
@@ -26,15 +26,15 @@ function App() {
 
         </Route>
         <Route path='Studio' element={<Menu />}>
-          <Route path='artist' element={<Back_artist/>}/>
-          <Route path='costume' element={<Back_costume/>}/>
-          <Route path='equip' element={<Back_equip/>}/>
+          <Route path='artist' element={<Backartist/>}/>
+          <Route path='costume' element={<Backcostume/>}/>
+          <Route path='equip' element={<Backequip/>}/>
           <Route index element={<Studio />}/>
         </Route>
         <Route path='Backstage' element={<Menu />}>
-          <Route path='artist' element={<Back_artist/>}/>
-          <Route path='costume' element={<Back_costume/>}/>
-          <Route path='equip' element={<Back_equip/>}/>
+          <Route path='artist' element={<Backartist/>}/>
+          <Route path='costume' element={<Backcostume/>}/>
+          <Route path='equip' element={<Backequip/>}/>
           <Route index element={<Backstage />}/>
         </Route>
         <Route path="Config" element={<Config />}/>
