@@ -1,0 +1,10 @@
+.Quiz_text{
+    position: absolute;
+    top: 160px;
+    left: 20px;
+}
+.Ans{
+    position: absolute;
+    left:20px;
+    top:400px;
+}

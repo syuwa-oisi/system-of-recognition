@@ -1,0 +1,26 @@
+.Quiz_list{
+    height: 480px;
+    overflow-y: scroll;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+.Quiz_list div{
+    width: 350px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track{
+    background: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2px rgb(29, 29, 29); 
+  }
+  ::-webkit-scrollbar-thumb{
+    background: rgb(48, 48, 48);
+    border-radius: 10px;
+    box-shadow: none;
+  }

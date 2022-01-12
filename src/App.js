@@ -10,6 +10,8 @@ import Backartist from './_pages/Back_artist/Backstage_artist.js';
 import Backcostume from './_pages/Back_costume/Backstage_costume.js';
 import Backequip from './_pages/Back_equipment/Backstage_equipment.js';
 import Menu from './_components/menu/menu.js';
+import Quiz from './_pages/quiz/quiz.js';
+import Result from "./_pages/Result/Result.js";
 import './App.css';
 
 function App() {
@@ -19,8 +21,10 @@ function App() {
       <Routes>
         <Route path='*' element={<NotFound />} />
         <Route index element={<Home />}/>
-        <Route path='Stage' element={<Stage />}>
-
+        <Route path='Stage' element={<Menu/>}>
+          <Route path='quiz' element={<Quiz/>}/>
+          <Route path='result' element={<Result/>}/>
+          <Route index element={<Stage/>}/>
         </Route>
         <Route path='Funclub' element={<Funclub />}>
 
