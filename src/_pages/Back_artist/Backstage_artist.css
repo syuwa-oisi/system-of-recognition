@@ -1,3 +1,25 @@
-.aaa{
-    z-index: 2;
+.BS_artist_1{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+}
+.BS_artist_2{
+    position: absolute;
+    top: 200px;
+    left: 85px;
+}
+.BS_artist_3{
+    position: absolute;
+    top: 200px;
+    left: 160px;
+}
+.BS_artist_4{
+    position: absolute;
+    top: 200px;
+    left: 235px;
+}
+.BS_artist_5{
+    position: absolute;
+    top: 200px;
+    left: 310px;
 }
